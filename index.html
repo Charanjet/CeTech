@@ -1,0 +1,134 @@
+<?php
+include(conf.php);
+?>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title></title>
+	<script src="jquery.js"></script>
+	<style type="text/css">
+		#img{
+			display: none;
+			}
+	</style>
+</head>
+<body>
+<input type="button" name="Show" id="Show" value="Show"><br>
+<button id="Show">Show</button>
+<img id="img" src="56.jpg">
+<script type="text/javascript">
+
+$(document).ready(function() 
+
+{
+	$("#Show").click(function()
+	{
+	   if ($(this).val()=="Show") 
+	   {
+	   	$(this).val("Hide");
+	   	$(img).show(2000);
+       }
+       else
+       {
+       	$(this).val("Show");
+	   	$(img).hide(1000);
+       }	
+	});
+	
+});
+
+
+
+
+
+
+	$("button").click(function() 
+	{
+	  $("#Show").html("hide");
+	   $("img").toggle(2000);
+    });
+    
+	$("button").click(function() 
+            {
+            	$('p').fadeIn();
+            });
+</script>
+    <form>
+	       <input type="text" name="name" placeholder="name">
+	       <input type="text" name="details" placeholder="details">
+	       <input type="text" name="ads" placeholder="address">
+	       <input type="text" name="country" placeholder="country">
+	</form>
+<p>Hello Welcome </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Software</title>
+	<link href="style.css" rel="stylesheet" type="text/css"> 
+	Bootstrap core CSS
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    Bootstrap theme
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    IE10 viewport hack for Surface/desktop Windows 8 bug
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    Custom styles for this template
+    <link href="theme.css" rel="stylesheet">
+    <link href="animate.css" type="text/css" rel="stylesheet">
+    <link href="animate.min.css" type="text/css" rel="stylesheet">
+    <link href="fa\cssfont-awesome.css" type="text/css" rel="stylesheet">
+    <link href="fa\cssfont-awesome.min.css" type="text/css" rel="stylesheet">
+
+  <style type="text/css">
+  	#f
+  	{
+        font-size: 20px;
+        font-family:"AnmolKalmi";
+  	}
+
+
+  </style>
+</head>
+<body>
+    <div class="page-header" style="background: #0003; height: 50px; border-radius: 9px; ">
+       <div>
+       <font color="white">  
+            <ul  class="nav navbar nav-pills" class="dropdown" style="list-style: none;">
+            	<li class=""><a class="dropdown-toggle" data-toggle="dropdown" href="">Home<span class="caret"></span></a>
+                      <ul class="dropdown"><li><a href=""></a></li></ul>
+
+
+            	</li>
+            	<li><a href="">About</a></li>
+            	<li><a href="">Visit Us</a></li>
+            	<li><a href="">Login</a></li>
+            </ul>          
+    	 </font>
+    </div>
+    </div>
+
+<font id="f" > nwnksr TwT isAwV </font>
+
+
+</body>
+</html> -->
